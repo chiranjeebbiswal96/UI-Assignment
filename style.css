@@ -1,0 +1,667 @@
+/* Reset default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 20px;
+  background-color: #000;
+  opacity: 1;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  gap: 10px;
+}
+
+.navbar-logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.get-demo-btn {
+  background-color: #f5f5f5;
+  color: #000;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.get-demo-btn:hover {
+  background-color: #e5e5e5;
+}
+
+/* Hero section styles */
+.hero-section {
+  background: linear-gradient(315deg, #21BDB8 0%, #280684 100%);
+  color: white;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 70px 314px 70px;
+  gap: 0px;
+  opacity: 1;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+.feature-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.feature-buttons button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feature-buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dashboard-preview {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 75%;
+}
+
+.dashboard-preview img {
+  width: 80%;
+  border-radius: 12px;
+}
+
+/**** Branding Section ****/
+.branding-section {
+  padding: 50px 70px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
+
+.branding-header {
+  padding-top: 30vh;
+}
+
+.branding-header h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+.branding-header p {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+.branding-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.branding-playground {
+  background: linear-gradient(135deg, #4B0082, #8A2BE2);
+  border-radius: 16px;
+  padding: 20px;
+  width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+.playground-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.playground-header span {
+  font-weight: bold;
+  color: white;
+}
+
+.dark-theme-btn {
+  padding: 8px 16px;
+  background-color: #1C1C1C;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.playground-content {
+  display: flex;
+  gap: 20px;
+}
+
+.playground-content img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.appearance {
+  flex: 1;
+}
+
+.appearance h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.colors button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.colors button.solid-color {
+  background-color: #FF5733;
+}
+
+.colors button.custom-logo {
+  background-color: #33C3FF;
+}
+
+.colors button.custom-color {
+  background-color: #FFC300;
+}
+
+.branding-details {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.branding-item {
+  width: 300px;
+  text-align: left;
+}
+
+.branding-item img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.branding-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.branding-item p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.enquire-btn {
+  margin-top: 40px;
+  padding: 12px 24px;
+  background-color: #FF5733;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.enquire-btn:hover {
+  background-color: #FF6F61;
+}
+
+/**** Outer, Middle, and Content Box ****/
+.outer-box {
+  background: linear-gradient(135deg, #3A42E1 2.88%, #620C90 98.14%);
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as necessary */
+}
+
+/**** Inner Box Adjustments ****/
+.middle-box {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  /* padding: 20px; */
+  width: 99%;
+  height: 98.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+  color: white;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.header .back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.header .back-btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 20%;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.header .back-btn-icon:hover {
+  background: rgba(255, 255, 255, 0.2); /* Lighter on hover */
+}
+
+.header span {
+  font-weight: 600;
+}
+
+
+.back-btn-icon {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  padding: 32px;
+}
+
+.left-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  flex: 2; 
+  padding: 0 20px;
+  color: white;
+}
+
+.right-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  flex: 1; /* Smaller size for the right box */
+  padding: 20px;
+  color: white;
+}
+
+.left-box h3 {
+  display: flex;
+  justify-self: start;
+}
+
+.playground-container {
+  background: rgba(255, 255, 255, 0.1); /* Background for container */
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.left-box img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* .right-box h3 & p{
+  text-align: left;
+} */
+
+.right-box {
+  background: rgba(255, 255, 255, 0.1); /* Match background opacity */
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.right-box h3 {
+  font-size: 1.2rem; 
+  font-weight: 500; 
+  margin: 2rem 0 0;
+}
+
+.right-box p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #e0e0e0; 
+}
+
+.color-selection{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  text-align: left;
+}
+
+.appearance-options {
+  display: flex;
+  gap: 10px;
+}
+
+.option-button {
+  background: rgba(255, 255, 255, 0.2); /* Subtle background for buttons */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500; /* Slightly bold */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button.active {
+  background: rgba(255, 255, 255, 0.4); /* Highlight active button */
+  font-weight: 600;
+}
+
+.option-button:hover {
+  background: rgba(255, 255, 255, 0.3); /* Hover effect */
+}
+
+.color-palette {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Even spacing for buttons */
+  gap: 0.8rem;
+}
+
+.color-btn {
+  width: 2rem; /* Slightly larger size for visibility */
+  height: 2rem;
+  border-radius: 50%; /* Circular buttons */
+  border: 2px solid transparent; /* For hover effect */
+  cursor: pointer;
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.color-btn:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  border: 2px solid rgba(255, 255, 255, 0.6); /* Border highlight */
+}
+
+.color-btn.white {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.color-btn.black {
+  background-color: black;
+}
+
+.color-btn.purple {
+  background-color: #620C90;
+}
+
+.color-btn.teal {
+  background-color: #21BDB8;
+}
+
+.color-btn.orange {
+  background-color: #FF5733;
+}
+
+.color-btn.green {
+  background-color: #33FF57;
+}
+
+.color-btn.blue {
+  background-color: #337BFF;
+}
+
+.color-btn.yellow {
+  background-color: #FFC300;
+}
+
+.color-btn.gray {
+  background-color: #A9A9A9;
+}
+
+.color-btn.brown {
+  background-color: #8B4513;
+}
+
+.custom-color {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-color label {
+  font-size: 0.9rem;
+  color: #e0e0e0; /* Match text color */
+}
+
+.custom-color input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.branding-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 20px;
+}
+
+.branding-item {
+  background: #000;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px; /* Adjust width as per design */
+  text-align: left;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.branding-item img {
+  width: 60%; /* Full width of the container */
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.branding-item {
+  border: 1px solid grey;
+  background-color: rgba(143, 141, 145, 0.2);
+}
+
+.ui1 img {
+  width: 40%; 
+}
+.ui2 img{
+  width: 50%;
+}
+
+.branding-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.branding-item p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #e0e0e0; /* Subtle text color */
+}
+
+.enquire-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.enquire-btn {
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.enquire-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.app-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between the two sections */
+  padding: 40px 70px; /* Add padding for spacing */
+  background-color: rgba(18, 18, 18, 1); /* Background to match the design */
+}
+
+.app-intro img, 
+.app-preview img {
+  width: 60%; /* Make the image responsive */
+  max-width: 500px; /* Limit the max width of each image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-section .logo {
+  font-size: 24px;
+  font-weight: 300;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+}
+
+.left-section .logo strong {
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.right-section {
+  text-align: right;
+  display: flex;
+  gap: 10rem; 
+}
+
+.right-section p {
+  margin: 5px 0;
+}
+
+.right-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.right-section a:hover {
+  text-decoration: underline;
+}
+
+.right-section span {
+  font-size: 14px;
+  color: #ccc;
+}
