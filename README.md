@@ -5,14 +5,8 @@ project-folder/
 │
 ├── assets/            # Folder for all static assets like images, icons, and fonts
 │   ├── images/        # Folder for all image assets
-│   │   ├── logo.png   # Logo of the website
-│   │   └── background.png # Background image or other images
 │   │
-│   ├── icons/         # Folder for icons (if any)
-│   │   └── demo-icon.png
-│   │
-│   ├── fonts/         # Folder for custom fonts (if applicable)
-│       └── custom-font.woff2
+│   
 │
 ├── js/                # Folder for JavaScript files (if any)
 │   └── app.js         # Main JavaScript file for interactivity
